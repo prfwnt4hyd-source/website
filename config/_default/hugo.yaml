@@ -1,3 +1,36 @@
+
+
+Claude hat die Antwort abgeschlossen
+Nachricht eingeklappt
+Zu ändern in dieser Datei nur eine Zeile:
+yaml
+baseURL: 'https://michael-borowski.de/'
+Der Titel steht laut Kommentar nicht hier, sondern in config/_default/params.yaml unter hugoblox.branding.name.
+Bearbeiten, Commit changes, dann config/_default/menus.yaml und config/_default/params.yaml hierher kopieren.
+?
+Öffne im Repository config → _default → menus.yaml, kopiere den Inhalt hierher. Danach dasselbe mit params.yaml aus demselben Ordner.
+Nachricht eingeklappt
+Angepasst an die vier abgestimmten Menüpunkte und die vorhandenen Blöcke:
+yaml
+# Navigation Links
+main:
+  - name: Approach
+    url: /approach/
+    weight: 10
+  - name: Projects
+    url: /#projects
+    weight: 20
+  - name: About
+    url: /
+    weight: 30
+  - name: Contact
+    url: /contact/
+    weight: 40
+Die Seiten approach und contact existieren noch nicht; bis dahin führen die Links ins Leere.
+Einsetzen, Commit changes, dann params.yaml hierher kopieren.
+die letzten 2 schritte habe ich nicht umgeseht. brauche die kompletten text die ich reinkopiere für beide schritte
+Datei 1 — config/_default/hugo.yaml (vollständig ersetzen):
+yaml
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
@@ -5,8 +38,9 @@
 
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
+
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://michael-borowski.de/'
 
 ############################
 ## LANGUAGE
@@ -62,4 +96,27 @@ markup:
 security:
   _merge: deep
 sitemap:
+  _merge: deep
+Datei 2 — config/_default/menus.yaml (vollständig ersetzen):
+yaml
+# Navigation Links
+main:
+  - name: Approach
+    url: /approach/
+    weight: 10
+  - name: Projects
+    url: /#projects
+    weight: 20
+  - name: About
+    url: /
+    weight: 30
+  - name: Contact
+    url: /contact/
+    weight: 40
+
+
+
+
+
+Claude ist eine KI und kann Fehler machen. Bitte überprüfe die Antworten.
   _merge: deep
