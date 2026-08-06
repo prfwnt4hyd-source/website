@@ -1,45 +1,11 @@
-
-
-Claude hat die Antwort abgeschlossen
-Nachricht eingeklappt
-Zu ändern in dieser Datei nur eine Zeile:
-yaml
-baseURL: 'https://michael-borowski.de/'
-Der Titel steht laut Kommentar nicht hier, sondern in config/_default/params.yaml unter hugoblox.branding.name.
-Bearbeiten, Commit changes, dann config/_default/menus.yaml und config/_default/params.yaml hierher kopieren.
-?
-Öffne im Repository config → _default → menus.yaml, kopiere den Inhalt hierher. Danach dasselbe mit params.yaml aus demselben Ordner.
-Nachricht eingeklappt
-Angepasst an die vier abgestimmten Menüpunkte und die vorhandenen Blöcke:
-yaml
-# Navigation Links
-main:
-  - name: Approach
-    url: /approach/
-    weight: 10
-  - name: Projects
-    url: /#projects
-    weight: 20
-  - name: About
-    url: /
-    weight: 30
-  - name: Contact
-    url: /contact/
-    weight: 40
-Die Seiten approach und contact existieren noch nicht; bis dahin führen die Links ins Leere.
-Einsetzen, Commit changes, dann params.yaml hierher kopieren.
-die letzten 2 schritte habe ich nicht umgeseht. brauche die kompletten text die ich reinkopiere für beide schritte
-Datei 1 — config/_default/hugo.yaml (vollständig ersetzen):
-yaml
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# This file is formatted using YAML syntax — learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+# Website name (set in params.yaml under hugoblox.identity.name)
+title: 'Michael Borowski'
 
-# Website URL
 baseURL: 'https://michael-borowski.de/'
 
 ############################
@@ -52,14 +18,12 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
-## PAGE OPTIONS
+## MODULES
 ############################
 
-cascade:
-  - target:
-      path: /slides/**
-      kind: page
-    outputs: [HTML, present]
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-core
 
 ############################
 ## ADVANCED
@@ -74,49 +38,51 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles:
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
-  section: [HTML, RSS]
+  home:
+    - HTML
+    - RSS
+    - headers
+    - redirects
+    - backlinks
+  section:
+    - HTML
+    - RSS
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 75
   anchor: smart
-  hint: picture
 timeout: 600000
 taxonomies:
-  author: authors
   tag: tags
+  category: categories
   publication_type: publication_types
+  author: authors
 markup:
   _merge: deep
-  highlight:
-    lineNos: false
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
 security:
   _merge: deep
 sitemap:
   _merge: deep
-Datei 2 — config/_default/menus.yaml (vollständig ersetzen):
-yaml
-# Navigation Links
-main:
-  - name: Approach
-    url: /approach/
-    weight: 10
-  - name: Projects
-    url: /#projects
-    weight: 20
-  - name: About
-    url: /
-    weight: 30
-  - name: Contact
-    url: /contact/
-    weight: 40
-
-
-
-
-
-Claude ist eine KI und kann Fehler machen. Bitte überprüfe die Antworten.
+minify:
   _merge: deep
