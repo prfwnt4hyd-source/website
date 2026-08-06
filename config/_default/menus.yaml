@@ -4,7 +4,7 @@ main:
     url: /approach/
     weight: 10
   - name: Projects
-    url: /#projects
+    url: /projects/
     weight: 20
   - name: About
     url: /
