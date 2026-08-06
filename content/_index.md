@@ -1,52 +1,17 @@
 ---
 title: ''
 summary: ''
-date: 2022-10-24
+date: 2026-08-06
 type: landing
 sections:
-  - block: resume-biography-3
-    content:
-      username: me
-      text: ''
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      background:
-        gradient_mesh:
-          enable: true
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
   - block: markdown
     content:
       title: 'Developing theology for a secular age'
       subtitle: ''
       text: |-
-        PLATZHALTER — kurzer Einleitungstext, zwei bis vier Sätze, mit Link auf die Approach-Seite.
+        Once, theology aspired to a grand unified theory: an account in which creation, humanity and their future are not separate departments but bear on one another and on how reality is described. That aspiration has been largely given up, and with it much of the interest anyone outside the discipline had in what theology produces. I believe it is worth pursuing again, this time under the conditions of a secular age.
+
+        However, such an account cannot be declared and then applied. It has to be tested against particular questions — theoretical and practical, addressed to the church and to a public that does not share its assumptions — and it requires preparatory work on the categories through which knowledge and the human are described. The [projects](/projects/) gathered here are that testing and that preparation.
     design:
       columns: '1'
-  - block: collection
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
 ---
