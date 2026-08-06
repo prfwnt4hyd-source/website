@@ -15,21 +15,16 @@ status:
 role: Coordinator, Scripture & Theology Forum
 bio: |
   Michael Borowski is affiliated with the Faculty of Religion and Theology
-  at Vrije Universiteit Amsterdam, where he works within the research
-  programme Faith and Other Adventures in Theology. He coordinates the
-  Scripture & Theology Forum and co-edits the series Contributions to
-  Philosophical Theology.
+  at Vrije Universiteit Amsterdam, working at the intersection of Philosophy of Science and Theology. He coordinates the
+  Scripture & Theology Forum and co-edits the series "Contributions to
+  Philosophical Theology" with Peter Lang.
 affiliations:
   - name: Vrije Universiteit Amsterdam, Faculty of Religion and Theology
     url: https://vu.nl/en/about-vu/faculties/faculty-of-religion-and-theology
 links:
   - icon: at-symbol
-    url: mailto:PLATZHALTER@michael-borowski.de
+    url: mailto:michael.borowski@gmx.de
     label: E-mail
-  - icon: academicons/orcid
-    url: https://orcid.org/PLATZHALTER
-  - icon: academicons/google-scholar
-    url: PLATZHALTER
 interests:
   - Scripture and theology
   - Science and religion
@@ -41,16 +36,3 @@ education:
     end: 2025-01-01
     summary: |
       Dissertation: Being Human in an Age of Science.
-  - degree: PLATZHALTER
-    institution: PLATZHALTER
-experience: []
-skills: []
-languages:
-  - name: German
-    level: 5
-    label: Native
-  - name: English
-    level: 5
-  - name: Dutch
-    level: 3
-awards: []
