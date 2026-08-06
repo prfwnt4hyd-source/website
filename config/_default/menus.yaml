@@ -1,3 +1,18 @@
+# Navigation Links
+main:
+  - name: Approach
+    url: /approach/
+    weight: 10
+  - name: Projects
+    url: /#projects
+    weight: 20
+  - name: About
+    url: /
+    weight: 30
+  - name: Contact
+    url: /contact/
+    weight: 40
+
 footer:
   - name: Impressum
     url: /impressum/
