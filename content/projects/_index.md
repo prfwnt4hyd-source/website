@@ -1,22 +1,17 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: Projects
 type: landing
-
-# Page sections
 sections:
-  - block: collection
+  - block: markdown
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
-      filters:
-        folders:
-          - projects
+      title: 'Audiences'
+      text: |-
+        Each project is written for a particular readership. The horizontal axis runs from readers with theological commitments to readers with none; the vertical from practitioners to scholars.
     design:
-      view: article-grid
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+      columns: '1'
+  - block: html
+    content:
+      title: ''
+    design:
+      columns: '1'
 ---
