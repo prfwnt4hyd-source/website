@@ -1,17 +1,12 @@
 ---
-title: ''
-summary: ''
-date: 2026-08-06
+title: About
 type: landing
 sections:
   - block: markdown
     content:
-      title: 'Developing theology for a secular age'
-      subtitle: ''
+      title: ''
       text: |-
-        Once, theology aspired to a grand unified theory: an account in which creation, humanity and their future are not separate departments but bear on one another and on how reality is described. That aspiration has been largely given up, and with it much of the interest anyone outside the discipline had in what theology produces. I believe it is worth pursuing again, this time under the conditions of a secular age.
-
-        However, such an account cannot be declared and then applied. It has to be tested against particular questions — theoretical and practical, addressed to the church and to a public that does not share its assumptions — and it requires preparatory work on the categories through which knowledge and the human are described. The [projects](/projects/) gathered here are that testing and that preparation.
+        Michael Borowski, PhD (VU Amsterdam), coordinates the [Scripture & Theology Forum](https://www.degruyterbrill.com/serial/tbt-b/html). He is affiliated with the [School of Religion and Theology](https://vu.nl/en/about-vu/faculties/school-of-religion-and-theology) at Vrije Universiteit Amsterdam, working at the [intersection of philosophy of science and theology](https://futureofacademictheology.com/). He also co-edits the series [*Contributions to Philosophical Theology*](https://www.peterlang.com/series/cpt) with Peter Lang.
     design:
       columns: '1'
 ---
