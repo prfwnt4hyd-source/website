@@ -10,7 +10,7 @@ sections:
 
         His long-term agenda is to develop theology for a secular age. Because such an account has to hold in the settings where it is actually put to work, his projects run in both ecclesiastical and secular contexts, and range from theoretical to practical questions.
 
-        [LinkedIn ↗](https://www.linkedin.com/in/michael-borowski-911636a2/)
+        [LinkedIn ↗](https://www.linkedin.com/in/michael-borowski-911636a2/) · [Academia.edu ↗](https://www.academia.edu)
     design:
       columns: '1'
 ---
