@@ -3,7 +3,7 @@ main:
   - name: Approach
     url: /approach/
     weight: 10
-  - name: Projects
+  - name: Publications and Projects
     url: /projects/
     weight: 20
   - name: About
