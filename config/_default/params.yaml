@@ -58,7 +58,7 @@ hugoblox:
   footer:
     style: minimal
     language_switcher: false
-    text: ""
+    text: "E-Mail: [michael.borowski@gmx.de](mailto:michael.borowski@gmx.de)"
 
   copyright:
     notice: "© {year} {name}"

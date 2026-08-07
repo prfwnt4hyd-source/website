@@ -10,7 +10,7 @@ sections:
 
         {{< audiences >}}
 
-        Recent papers will be added here gradually. In the meantime, see [Academia.edu ↗](https://www.academia.edu).
+        Recent papers are posted gradually on [Academia.edu ↗](https://www.academia.edu).
     design:
       columns: '1'
 ---
