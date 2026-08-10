@@ -22,8 +22,8 @@ sections:
         Edited with Tomas Bokedal and Ludger Jansen. De Gruyter, Theologische Bibliothek Töpelmann 201 (2023).
 
         [![International Journal of Systematic Theology](ijst-special-issue.jpg)](https://onlinelibrary.wiley.com/doi/10.1111/ijst.12798)
-        **["Introduction: The Rationale for This Special Issue" ↗](https://onlinelibrary.wiley.com/doi/10.1111/ijst.12798)**
-        With Gijsbert van den Brink. *International Journal of Systematic Theology* (2025), open access.
+        **[Special Issue: The Nature of Christian Doctrine ↗](https://onlinelibrary.wiley.com/doi/10.1111/ijst.12798)**
+        Guest-edited with Gijsbert van den Brink. *International Journal of Systematic Theology* (2025), open access.
     design:
       columns: '1'
 ---
